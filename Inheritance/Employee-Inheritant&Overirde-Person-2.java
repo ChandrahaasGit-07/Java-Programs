@@ -6,7 +6,8 @@
     1.1: Write a Java program where the "Employee" subclass generates an email ID based on name and job title.
     1.2: Write a Java program where the "Person" class allows name changes under certain conditions.
     1.3 : Write a Java program where the "Employee" subclass includes a method to calculate annual leave balance.
-
+*/
+	  
 class Person
 {
     String fname;
