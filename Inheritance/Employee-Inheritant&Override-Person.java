@@ -31,7 +31,7 @@ class Employee extends Person
     
     Employee(String fname, String lname, int id, String jobTitle)
     {
-        super(fname, lname);
+        super(fname, lname);  // calling the super class constructor from sub class using "super", instead of creating a new object for it.
         this.id = id;
         this.jobTitle = jobTitle;
     }
