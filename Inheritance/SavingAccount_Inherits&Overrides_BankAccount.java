@@ -46,7 +46,7 @@ class SavingsAccount extends BankAccount
     
     void withdraw(int ammount)
     {
-        if(super.getBalance() - ammount <= 100)
+        if(super.getBalance() - ammount <= 100)  // assume min balance should be 100
         {
             System.out.println("Minimum balance required INR 100");
         }
